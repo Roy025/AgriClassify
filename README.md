@@ -36,6 +36,7 @@ Pip (Python package installer)
 #### Clone the repository:
 
 git clone https://github.com/Roy025/AgriClassify.git
+
 cd AgriClassify
 
 #### Create a virtual environment:
