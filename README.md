@@ -51,3 +51,5 @@ python app.py
 
 ### Access the application:
 Open your web browser and navigate to http://127.0.0.1:5000/.
+![alt text](image.png)
+![alt text](image-1.png)
