@@ -61,3 +61,19 @@ Open your web browser and navigate to http://127.0.0.1:5000/.
 **Result**
 
 ![alt text](image.png)
+
+**Data**
+
+![alt text](image-2.png)
+
+**Model Structure**
+
+![Model Plot](model_plot.png)
+
+
+**Accuracy**
+
+![alt text](image-3.png)
+
+**Kaggle Link**
+https://www.kaggle.com/code/praptiroy025/agriclassify
