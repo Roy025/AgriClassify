@@ -8,8 +8,12 @@ https://www.kaggle.com/code/praptiroy025/agriclassify
 
 ## Features
 **Image Upload:** Users can upload images from local directory directly through a web interface.
+
 **Real-time Prediction:** The application processes the uploaded image and predicts its category using a pre-trained TensorFlow model.
+
 **Result Display:** The predicted category and confidence level are displayed on a results page along with the uploaded image.
+
+
 ## Project Structure
 
         project-directory/
@@ -31,6 +35,7 @@ https://www.kaggle.com/code/praptiroy025/agriclassify
 **Deployment:** Flask development server
 
 ## Installation
+
 ### Prerequisites
 Python 3.7+
 Pip (Python package installer)
