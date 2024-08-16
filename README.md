@@ -7,12 +7,11 @@ This project is a web-based image classification application built using Flask a
 https://www.kaggle.com/code/praptiroy025/agriclassify
 
 ## Features
-**Image Upload:** Users can upload images from local directory directly through a web interface.
+- **Image Upload:** Users can upload images directly from their local directory through a web interface.
 
-**Real-time Prediction:** The application processes the uploaded image and predicts its category using a pre-trained TensorFlow model.
+- **Custom Model Prediction:** The application processes the uploaded image and predicts its category using a TensorFlow model that I personally trained with a large dataset.
 
-**Result Display:** The predicted category and confidence level are displayed on a results page along with the uploaded image.
-
+- **Result Display:** The predicted category and confidence level are displayed on a results page alongside the uploaded image.
 
 ## Project Structure
 
