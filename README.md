@@ -1,4 +1,4 @@
-# Image Classification Web Application
+# AgriClassify
 ## Project Overview
 
 This project is a web-based image classification application built using Flask and TensorFlow. Users can upload images of fruits or vegetables, and the application will predict the category of the uploaded image and display the result along with the prediction confidence.
