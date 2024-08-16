@@ -25,9 +25,11 @@ https://www.kaggle.com/code/praptiroy025/agriclassify
         └── README.md                 
 ## Tech Stack
 
-**Backend:** Flask (Python)
+**Language:** Python
 
-**Machine Learning:** TensorFlow, Keras
+**Backend:** Flask
+
+**Machine Learning:** Pandas, Matplotlib, TensorFlow, Keras
 
 **Frontend:** HTML, CSS
 
