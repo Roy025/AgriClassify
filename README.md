@@ -37,6 +37,7 @@ cd AgriClassify
 
 #### Create a virtual environment:
 python -m venv venv
+
 venv\Scripts\activate
 
 #### Install the required packages:
@@ -58,9 +59,19 @@ Open your web browser and navigate to http://127.0.0.1:5000/.
 
 ![alt text](image-1.png)
 
-**Result**
+## Result
 
-![alt text](image.png)
+<p align="center">
+    <img src="image-4.png" alt="alt text" width="30%">
+    <img src="image-5.png" alt="alt text" width="30%">
+    <img src="image-6.png" alt="alt text" width="30%">
+</p>
+<p align="center">
+    <img src="image-7.png" alt="alt text" width="45%">
+    <img src="image.png" alt="alt text" width="45%">
+</p>
+
+
 
 **Data**
 

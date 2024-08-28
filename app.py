@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 # Load your trained model
 model = load_model(r'D:\PRAPTI\Books\PROJECTS\AgriClassify\best_model_keras.keras')
+print("Current TensorFlow version:", tf.__version__)
 
 # List of categories
 data_cat = ['apple', 'banana', 'beetroot', 'bell pepper', 'cabbage', 'capsicum', 
