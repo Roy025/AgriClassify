@@ -24,7 +24,7 @@ img_height = 180
 img_width = 180
 
 # Define the upload folder
-UPLOAD_FOLDER = os.path.join('uploads')  # Direct uploads folder
+UPLOAD_FOLDER = os.path.join('uploads')
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -39,28 +39,22 @@ def upload_image():
             return redirect(request.url)
         
         if file:
-            # Save the uploaded image
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
             file.save(filepath)
 
-            # Load and process the image using the same steps as in Kaggle
             try:
                 image = tf.keras.utils.load_img(filepath, target_size=(img_height, img_width))
                 img_arr = tf.keras.utils.img_to_array(image)
                 img_bat = tf.expand_dims(img_arr, 0)  # Create a batch of one
 
-                # Make a prediction
                 predict = model.predict(img_bat)
                 score = tf.nn.softmax(predict[0])
 
-                # Get the predicted class and confidence
                 predicted_class = data_cat[np.argmax(score)]
                 confidence = np.max(score) * 100
 
-                # Print the output in the same format as your Kaggle code
                 print('Product in image is {} with accuracy of {:0.2f}'.format(predicted_class, confidence))
 
-                # Pass data to result.html
                 return render_template('result.html', 
                                         image=file.filename, 
                                         predicted_class=predicted_class, 
