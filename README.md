@@ -3,8 +3,8 @@
 
 This project is a web-based image classification application built using Flask and TensorFlow. The application leverages a custom-trained model, which I personally developed using a huge database. Users can upload images of fruits or vegetables, and the app will predict the category of the uploaded image, displaying the result along with the prediction confidence.
 
-**Kaggle Link**
-https://www.kaggle.com/code/praptiroy025/agriclassify
+// **Kaggle Link**
+// https://www.kaggle.com/code/praptiroy025/agriclassify
 
 ## Features
 - **Image Upload:** Users can upload images directly from their local directory through a web interface.
